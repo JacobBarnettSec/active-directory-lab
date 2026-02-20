@@ -9,6 +9,20 @@ The environment includes domain services, organizational structure, user and gro
 
 ---
 
+## 📑 Table of Contents
+
+- [🏢 Project Overview](#-project-overview)
+- [🖥️ Environment Setup](#-environment-setup)
+- [🏗️ Active Directory Structure](#-active-directory-structure)
+- [👥 Users and Groups](#-users-and-groups)
+- [🔐 Group Policy Configuration](#-group-policy-configuration)
+- [🧩 Skills Demonstrated](#-skills-demonstrated)
+- [📸 Project Walkthrough](#-project-walkthrough)
+- [🧩 Planned Future Enhancements](#-planned-future-enhancements)
+- [📚 Summary](#-summary)
+
+---
+
 ## 🏢 Project Overview
 
 This lab simulates how an IT department would build and manage an internal Windows domain for a small-to-mid-sized company.  
@@ -135,6 +149,89 @@ Included the following screenshots in the repo:
 - Security hardening  
 - Network drive deployment  
 - AWS EC2 Windows Server management  
+
+---
+
+## 📸 Project Walkthrough
+
+This walkthrough highlights the key stages of deploying Active Directory Domain Services (AD DS) for the Saviva Labs environment. Each screenshot includes a brief explanation to guide the reader through the process.
+
+---
+
+### **1. EC2 Instance Deployment**
+![EC2 Instance List](screenshots/01-aws-instance-setup/EC2 instance list.png)  
+The Windows Server instance is deployed in AWS and prepared to host the Active Directory environment.
+
+---
+
+### **2. Instance Details**
+![Instance Details](screenshots/01-aws-instance-setup/Instance details.png)  
+Instance networking and system details are verified before configuration begins.
+
+---
+
+### **3. RDP Connection**
+![RDP Connection Page](screenshots/01-aws-instance-setup/RDP Connection Page.png)  
+The RDP connection page provides secure access to the Windows Server instance.
+
+---
+
+### **4. First Login to Windows Server**
+![First Login Desktop](screenshots/01-aws-instance-setup/First Login Desktop.png)  
+Successful login confirms the server is ready for role installation and configuration.
+
+---
+
+### **5. Installing Active Directory Domain Services**
+![Adding AD DS Role](screenshots/02-server-manager-and-roles/Adding AD DS Role.png)  
+The AD DS role is added through Server Manager, installing the components required for domain controller promotion.
+
+---
+
+### **6. Confirming AD DS Installation**
+![Confirming AD DS Installation](screenshots/02-server-manager-and-roles/Confirming AD DS Installation.png)  
+The installation summary confirms all required features, including Group Policy Management.
+
+---
+
+### **7. Creating the Domain**
+![Creating the Domain](screenshots/03-domain-controller-promotion/Creating the Domain.png)  
+A new forest is created with the root domain **savivalabs.local**, establishing the foundation of the environment.
+
+---
+
+### **8. Domain Controller Options**
+![Domain Controller Options](screenshots/03-domain-controller-promotion/Domain Controller Options.png)  
+DNS, Global Catalog, and functional levels are configured, along with the DSRM password.
+
+---
+
+### **9. Prerequisites Check**
+![Proof of Configuration](screenshots/03-domain-controller-promotion/proof of configuration.png)  
+All prerequisite checks pass successfully, confirming the server is ready for promotion.
+
+---
+
+### **10. Organizational Structure Created**
+![Organizational Structure Created](screenshots/04-active-directory-structure/Organizational Structure Created.png)  
+The Saviva Labs OU structure is created, including Admins, Servers, Workstations, Users, and Groups.
+
+---
+
+### **11. User Accounts Created**
+![User Accounts Created](screenshots/05-users-and-groups/User Accounts Created.png)  
+Realistic user accounts are added to the domain and organized into their respective OUs.
+
+---
+
+### **12. Group Structure + Membership**
+![Group Structure + Membership](screenshots/05-users-and-groups/Group Structure + Membership.png)  
+Security groups are created and users are assigned following least‑privilege principles.
+
+---
+
+## 📁 Full Screenshot Archive
+All 25 screenshots are available in the `/screenshots` directory, organized into subfolders for easy navigation.
 
 ---
 
