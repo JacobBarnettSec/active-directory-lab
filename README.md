@@ -124,7 +124,7 @@ A shared folder (`C:\SavivaShared`) was created and deployed to users via GPO:
 
 ## 📸 Screenshots
 
-Included the following screenshots in the repo:
+Included the following [/screenshots](./screenshots) in the repo:
 
 - Domain Controller promotion  
 - OU structure  
