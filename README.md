@@ -12,8 +12,8 @@ The environment includes domain services, organizational structure, user and gro
 ## 📑 Table of Contents
 
 - [🏢 Project Overview](#-project-overview)
-- [🖥️ Environment Setup](#environment-setup)
-- [🏗️ Active Directory Structure](#active-directory-structure)
+- [💻 Environment Setup](#environment-setup)
+- [🗂️ Active Directory Structure](#active-directory-structure)
 - [👥 Users and Groups](#-users-and-groups)
 - [🔐 Group Policy Configuration](#-group-policy-configuration)
 - [🧩 Skills Demonstrated](#-skills-demonstrated)
@@ -42,7 +42,7 @@ This project demonstrates hands-on experience with core enterprise technologies 
 
 ---
 
-## Environment Setup
+## 💻 Environment Setup
 
 - **Platform:** AWS EC2  
 - **Instance:** Windows Server  
@@ -53,7 +53,7 @@ This project demonstrates hands-on experience with core enterprise technologies 
 
 ---
 
-## Active Directory Structure
+## 🗂️ Active Directory Structure
 
 ### Organizational Units (OUs)
 
