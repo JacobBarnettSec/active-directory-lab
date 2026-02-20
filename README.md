@@ -171,7 +171,7 @@ Instance networking and system details are verified before configuration begins.
 ---
 
 ### **3. RDP Connection**
-![RDP Connection Page](screenshots/01-aws-instance-setup/RDP Connection Page.png)  
+![RDP Connection Page](screenshots/01-aws-instance-setup/RDP%20Connection%20Page.png)  
 The RDP connection page provides secure access to the Windows Server instance.
 
 ---
