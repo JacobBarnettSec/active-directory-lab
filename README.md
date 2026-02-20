@@ -159,7 +159,7 @@ This walkthrough highlights the key stages of deploying Active Directory Domain 
 ---
 
 ### **1. EC2 Instance Deployment**
-![EC2 Instance List](screenshots/01-aws-instance-setup/EC2 instance list.png)  
+![EC2 Instance List](<screenshots/01-aws-instance-setup/EC2 instance list.png>)  
 The Windows Server instance is deployed in AWS and prepared to host the Active Directory environment.
 
 ---
