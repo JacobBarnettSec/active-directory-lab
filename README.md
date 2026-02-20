@@ -12,8 +12,8 @@ The environment includes domain services, organizational structure, user and gro
 ## 📑 Table of Contents
 
 - [🏢 Project Overview](#-project-overview)
-- [🖥️ Environment Setup](#-environment-setup)
-- [🏗️ Active Directory Structure](#-active-directory-structure)
+- [🖥️ Environment Setup](#environment-setup)
+- [🏗️ Active Directory Structure](#active-directory-structure)
 - [👥 Users and Groups](#-users-and-groups)
 - [🔐 Group Policy Configuration](#-group-policy-configuration)
 - [🧩 Skills Demonstrated](#-skills-demonstrated)
