@@ -231,7 +231,7 @@ Security groups are created and users are assigned following least‑privilege p
 ---
 
 ## 📁 Full Screenshot Archive
-All 25 screenshots are available in the <./screenshots> directory, organized into subfolders for easy navigation.
+All 25 screenshots are available in the [/screenshots](./screenshots) directory, organized into subfolders for easy navigation.
 
 ---
 
