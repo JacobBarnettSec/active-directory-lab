@@ -177,7 +177,7 @@ The RDP connection page provides secure access to the Windows Server instance.
 ---
 
 ### **4. First Login to Windows Server**
-![First Login Desktop](<screenshots/01-aws-instance-setup/First Login Desktop.png>)  
+![First Login Desktop](<screenshots/01-aws-instance-setup/First Login Desktop.jpg>)  
 Successful login confirms the server is ready for role installation and configuration.
 
 ---
