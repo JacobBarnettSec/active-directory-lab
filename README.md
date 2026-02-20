@@ -42,7 +42,7 @@ This project demonstrates hands-on experience with core enterprise technologies 
 
 ---
 
-## 🖥️ Environment Setup
+## Environment Setup
 
 - **Platform:** AWS EC2  
 - **Instance:** Windows Server  
@@ -53,7 +53,7 @@ This project demonstrates hands-on experience with core enterprise technologies 
 
 ---
 
-## 🏗️ Active Directory Structure
+## Active Directory Structure
 
 ### Organizational Units (OUs)
 
