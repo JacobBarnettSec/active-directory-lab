@@ -16,7 +16,6 @@ The environment includes domain services, organizational structure, user and gro
 - [🧩 Active Directory Structure](#-active-directory-structure)
 - [👥 Users and Groups](#-users-and-groups)
 - [🔐 Group Policy Configuration](#-group-policy-configuration)
-- [⚡ PowerShell Automation](#-powershell-automation)
 - [🧩 Skills Demonstrated](#-skills-demonstrated)
 - [📸 Project Walkthrough](#-project-walkthrough)
 - [🧩 Planned Future Enhancements](#-planned-future-enhancements)
@@ -120,27 +119,6 @@ A shared folder (`C:\SavivaShared`) was created and deployed to users via GPO:
 - Network path: `\\savivalabs.local\SavivaShared`  
 - Drive letter: **Z:**  
 - Label: **Saviva Shared Drive**
-
----
-
-## ⚡ PowerShell Automation
-
-To demonstrate automation skills commonly used in enterprise Active Directory environments, several identity tasks were also performed using PowerShell. These scripts automate routine operations such as user creation, group membership management, and account auditing.
-
-powershell
-# 1. Create a New AD User
-New-ADUser -Name "Test User" -GivenName "Test" -Surname "User" -SamAccountName "tuser" -UserPrincipalName "tuser@savivalabs.local" -AccountPassword (Read-Host -AsSecureString "Enter Password") -Enabled $true -Path "OU=_Users,DC=savivalabs,DC=local"
-
-# 2. Bulk‑Create Users from CSV
-Import-Csv .\users.csv | ForEach-Object {
-    New-ADUser -Name $_.Name -SamAccountName $_.Username -UserPrincipalName "$($_.Username)@savivalabs.local" -GivenName $_.First -Surname $_.Last -AccountPassword (ConvertTo-SecureString $_.Password -AsPlainText -Force) -Enabled $true -Path "OU=_Users,DC=savivalabs,DC=local"
-}
-
-# 3. Add a User to a Security Group
-Add-ADGroupMember -Identity "IT Support" -Members "bmartinez"
-
-# 4. Find Locked‑Out Accounts
-Search-ADAccount -LockedOut | Select-Object Name, SamAccountName
 
 ---
 
